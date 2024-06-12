@@ -43,6 +43,10 @@ struct ContentView: View {
                     IntegratingUIKitSwitfUI()
                         .navigationTitle("8. Integrating UIKit into SwiftUI")
                 }
+                NavigationLink("9. Exploring more views and controls") {
+                    ExploringMoreViewsAndControls()
+                        .navigationTitle("9. Exploring more views and controls")
+                }
             }
         }
         .navigationTitle("SwiftUI Cookbook")
