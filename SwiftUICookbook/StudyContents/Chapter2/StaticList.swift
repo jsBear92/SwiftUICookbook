@@ -14,7 +14,7 @@ struct WeatherTestInfo: Identifiable {
     var city: String
 }
 
-struct CreatingAListOfStaticItems: View {
+struct StaticList: View {
     let weatherTestData: [WeatherTestInfo] = [
         WeatherTestInfo(image: "snow", temp: 5, city: "New York"),
         WeatherTestInfo(image: "cloud", temp:5, city:"Kansas City"),
@@ -54,5 +54,5 @@ struct CreatingAListOfStaticItems: View {
 }
 
 #Preview {
-    CreatingAListOfStaticItems()
+    StaticList()
 }

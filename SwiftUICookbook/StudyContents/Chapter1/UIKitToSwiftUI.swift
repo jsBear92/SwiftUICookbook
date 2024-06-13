@@ -23,7 +23,7 @@ struct ActivityIndicator: UIViewRepresentable {
     }
 }
 
-struct IntegratingUIKitSwitfUI: View {
+struct UIKitToSwiftUI: View {
     @State private var isAnimating = true
     var body: some View {
         VStack {
@@ -39,5 +39,5 @@ struct IntegratingUIKitSwitfUI: View {
 }
 
 #Preview {
-    IntegratingUIKitSwitfUI()
+    UIKitToSwiftUI()
 }

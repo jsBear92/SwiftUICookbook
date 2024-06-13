@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddingSectionsToAList: View {
+struct ListWithSections: View {
     var body: some View {
         NavigationStack {
             List {
@@ -39,5 +39,5 @@ struct AddingSectionsToAList: View {
 }
 
 #Preview {
-    AddingSectionsToAList()
+    ListWithSections()
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CreatingAnEditableListView: View {
+struct ListRowEdit: View {
     @State private var countries = ["USA", "Canada", "Mexico", "England", "Spain", "Cameroon", "South Africa", "Japan", "South Korea"]
     var body: some View {
         NavigationStack {
@@ -30,5 +30,5 @@ struct CreatingAnEditableListView: View {
 }
 
 #Preview {
-    CreatingAnEditableListView()
+    ListRowEdit()
 }

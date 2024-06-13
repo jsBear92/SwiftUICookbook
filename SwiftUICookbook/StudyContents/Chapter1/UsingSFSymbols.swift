@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SimpleGraphicsSFSymbols: View {
+struct UsingSFSymbols: View {
     @State private var wifiSelection = 0
     var body: some View {
         VStack {
@@ -73,5 +73,5 @@ struct SimpleGraphicsSFSymbols: View {
 }
 
 #Preview {
-    SimpleGraphicsSFSymbols()
+    UsingSFSymbols()
 }

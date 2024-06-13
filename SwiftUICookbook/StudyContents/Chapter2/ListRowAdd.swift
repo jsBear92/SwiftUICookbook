@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddingRowsToAList: View {
+struct ListRowAdd: View {
     @State var numbers = [1,2,3,4]
     var body: some View {
         NavigationStack {
@@ -31,5 +31,5 @@ struct AddingRowsToAList: View {
 }
 
 #Preview {
-    AddingRowsToAList()
+    ListRowAdd()
 }

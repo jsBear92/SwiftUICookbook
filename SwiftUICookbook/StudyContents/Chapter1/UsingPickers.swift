@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BeyondButtonsAdvancedPickers: View {
+struct UsingPickers: View {
     @State private var choice = 0
     @State private var showText = false
     @State private var transitModes = ["Bike", "Car", "Bus"]
@@ -52,5 +52,5 @@ struct BeyondButtonsAdvancedPickers: View {
 }
 
 #Preview {
-    BeyondButtonsAdvancedPickers()
+    UsingPickers()
 }

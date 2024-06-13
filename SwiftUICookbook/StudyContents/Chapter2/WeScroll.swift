@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UsingScrollViews: View {
+struct WeScroll: View {
     let letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"]
     
     @State private var flashIndicators = false
@@ -49,5 +49,5 @@ struct UsingScrollViews: View {
 }
 
 #Preview {
-    UsingScrollViews()
+    WeScroll()
 }

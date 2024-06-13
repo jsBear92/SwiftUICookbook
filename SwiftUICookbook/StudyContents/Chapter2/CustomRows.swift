@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UsingCustomRowsInAList: View {
+struct CustomRows: View {
     var weatherData: [WeatherInfo]
     var body: some View {
         List {
@@ -19,5 +19,5 @@ struct UsingCustomRowsInAList: View {
 }
 
 #Preview {
-    UsingCustomRowsInAList(weatherData: WeatherInfo.weatherData)
+    CustomRows(weatherData: WeatherInfo.weatherData)
 }

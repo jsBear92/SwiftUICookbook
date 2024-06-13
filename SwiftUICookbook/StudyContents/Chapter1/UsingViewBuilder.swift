@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SeparatingPresentationViewBuilder: View {
+struct UsingViewBuilder: View {
     var body: some View {
         VStack {
             BlueCircle {
@@ -24,5 +24,5 @@ struct SeparatingPresentationViewBuilder: View {
 }
 
 #Preview {
-    SeparatingPresentationViewBuilder()
+    UsingViewBuilder()
 }

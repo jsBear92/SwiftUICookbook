@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddingButtonsAndNavigatingWithThem: View {
+struct Buttons: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 44) {
@@ -35,5 +35,5 @@ struct AddingButtonsAndNavigatingWithThem: View {
 }
 
 #Preview {
-    AddingButtonsAndNavigatingWithThem()
+    Buttons()
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CreatingEditableCollections: View {
+struct EditableListsFields: View {
     @State private var todos = [
         TodoItem(title: "Eat"),
         TodoItem(title: "Sleep"),
@@ -26,5 +26,5 @@ struct TodoItem: Identifiable {
 }
 
 #Preview {
-    CreatingEditableCollections()
+    EditableListsFields()
 }

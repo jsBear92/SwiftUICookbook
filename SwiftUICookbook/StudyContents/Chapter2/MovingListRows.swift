@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MovingTheRowsInAListView: View {
+struct MovingListRows: View {
     @State private var countries = ["USA", "Canada", "Mexico", "England", "Spain", "Cameroon", "South Africa", "Japan", "South Korea"]
     var body: some View {
         NavigationStack {
@@ -34,5 +34,5 @@ struct MovingTheRowsInAListView: View {
 }
 
 #Preview {
-    MovingTheRowsInAListView()
+    MovingListRows()
 }

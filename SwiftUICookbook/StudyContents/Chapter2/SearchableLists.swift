@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UsingSearchableLists: View {
+struct SearchableLists: View {
     @State private var searchText = ""
     let food: [Food] = Food.sampleFood
     var body: some View {
@@ -32,5 +32,5 @@ struct UsingSearchableLists: View {
 }
 
 #Preview {
-    UsingSearchableLists()
+    SearchableLists()
 }

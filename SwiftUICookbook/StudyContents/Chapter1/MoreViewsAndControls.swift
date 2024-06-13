@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExploringMoreViewsAndControls: View {
+struct MoreViewsAndControls: View {
     @State private var progress = 0.5
     @State private var color = Color.red
     @State private var secondColor = Color.yellow
@@ -80,5 +80,5 @@ struct ExploringMoreViewsAndControls: View {
 }
 
 #Preview {
-    ExploringMoreViewsAndControls()
+    MoreViewsAndControls()
 }

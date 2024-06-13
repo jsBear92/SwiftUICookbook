@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UsingSearchableListsWithScopes: View {
+struct SearchableListsWithScopes: View {
     /// add this code
     enum FruitSearchScope: Hashable {
         case all
@@ -50,5 +50,5 @@ struct UsingSearchableListsWithScopes: View {
 }
 
 #Preview {
-    UsingSearchableListsWithScopes()
+    SearchableListsWithScopes()
 }

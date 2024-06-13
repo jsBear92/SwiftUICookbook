@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DealingWithText: View {
+struct FormattedText: View {
     @State private var password = "1234"
     @State private var someText = "initial text"
     var body: some View {
@@ -41,5 +41,5 @@ struct DealingWithText: View {
 }
 
 #Preview {
-    DealingWithText()
+    FormattedText()
 }

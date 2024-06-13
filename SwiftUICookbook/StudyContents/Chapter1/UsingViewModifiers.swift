@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ApplyingGroupsViewModifier: View {
+struct UsingViewModifiers: View {
     var body: some View {
         Text("Perfect").modifier(BackgroundStyle(bgColor: .blue))
     }
@@ -26,5 +26,5 @@ struct BackgroundStyle: ViewModifier {
 }
 
 #Preview {
-    ApplyingGroupsViewModifier()
+    UsingViewModifiers()
 }

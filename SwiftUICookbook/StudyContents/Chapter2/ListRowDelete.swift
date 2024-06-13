@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DeletingRowsFromAList: View {
+struct ListRowDelete: View {
     @State private var countries = ["USA", "Canada", "Mexico", "England", "Spain", "Cameroon", "South Africa", "Japan", "South Korea"]
     var body: some View {
         NavigationStack {
@@ -27,5 +27,5 @@ struct DeletingRowsFromAList: View {
 }
 
 #Preview {
-    DeletingRowsFromAList()
+    ListRowDelete()
 }

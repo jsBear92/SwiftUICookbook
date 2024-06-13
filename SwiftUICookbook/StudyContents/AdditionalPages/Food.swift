@@ -8,7 +8,7 @@
 import Foundation
 
 struct Food: Hashable {
-    
+
     enum Category: String {
         case fruit
         case meat
@@ -59,64 +59,84 @@ extension Food {
         Food(
             name: "Peach",
             category: .fruit
-        ), Food(
+        ),
+        Food(
             name: "Pork",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Beef",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Lamb",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Goat",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Chicken",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Turkey",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Fish",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Crab",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Lobster",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Shrimp",
             category: .meat
-        ), Food(
+        ),
+        Food(
             name: "Carrot",
             category: .vegetable
-        ), Food(
+        ),
+        Food(
             name: "Lettuce",
             category: .vegetable
-        ), Food(
+        ),
+        Food(
             name: "Tomato",
             category: .vegetable
-        ), Food(
+        ),
+        Food(
             name: "Onion",
             category: .vegetable
-        ), Food(
+        ),
+        Food(
             name: "Broccoli",
             category: .vegetable
-        ), Food(
+        ),
+        Food(
             name: "Cauliflower",
             category: .vegetable
-        ), Food(
+        ),
+        Food(
             name: "Eggplant",
             category: .vegetable
-        ), Food(
+        ),
+        Food(
             name: "Swiss Chard",
             category: .vegetable
-        ), Food(
+        ),
+        Food(
             name: "Spinach",
             category: .vegetable
-        ), Food(
+        ),
+        Food(
             name: "Zucchini",
             category: .vegetable
         ),
