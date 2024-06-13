@@ -108,6 +108,18 @@ struct ContentView: View {
                         ScrollViewReaders()
                             .navigationTitle("3. Scrolling programmatically")
                     }
+                    NavigationLink("4. Displaying hierarchical content in expanding lists") {
+                        ExpandingLists()
+                        .navigationTitle("4. Displaying hierarchical content in expanding lists")
+                    }
+                    NavigationLink("5. Using disclosure groups to hide and show content") {
+                        DisclosureGroups()
+                        .navigationTitle("5. Using disclosure groups to hide and show content")
+                    }
+                    NavigationLink("6. Creating SwiftUI widgets") {
+                        TodoView()
+                        .navigationTitle("6. Creating SwiftUI widgets")
+                    }
                 })
             }
         }
