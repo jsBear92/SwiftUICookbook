@@ -116,6 +116,14 @@
 				Chapter4/PreviewOnDifferentDevices.swift,
 				Chapter4/SecondView.swift,
 				Chapter4/UsingMockDataForPreviews.swift,
+				Chapter5/City.swift,
+				Chapter5/CityRowView.swift,
+				Chapter5/FocusAndSubmit.swift,
+				Chapter5/FormFieldDisable.swift,
+				Chapter5/LoginView.swift,
+				Chapter5/MultiColumnTable.swift,
+				Chapter5/SignUp.swift,
+				Chapter5/TwoDimensionalLayout.swift,
 			);
 			target = 088306B52C195DC10086BE4A /* SwiftUICookbook */;
 		};

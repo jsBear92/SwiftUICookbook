@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section(header: Text("Chapter 1")) {
+                DisclosureGroup("Chapter 1", content: {
                     NavigationLink("1. Dealing with Text") {
                         FormattedText()
                             .navigationTitle("1. Dealing with Text")
@@ -48,8 +48,8 @@ struct ContentView: View {
                         MoreViewsAndControls()
                             .navigationTitle("9. Exploring more views and controls")
                     }
-                }
-                Section(header: Text("Chapter 2"), content: {
+                })
+                DisclosureGroup("Chapter 2", content: {
                     NavigationLink("1. Using scroll views") {
                         WeScroll()
                             .navigationTitle("1. Using scroll views")
@@ -95,7 +95,7 @@ struct ContentView: View {
                             .navigationTitle("11. Using searchable lists with scopes")
                     }
                 })
-                Section(header: Text("Chapter 3"), content: {
+                DisclosureGroup("Chapter 3", content: {
                     NavigationLink("1. Using LazyHStack and LazyVStack") {
                         LazyStacks()
                             .navigationTitle("1. Using LazyHStack and LazyVStack")
@@ -121,7 +121,7 @@ struct ContentView: View {
                         .navigationTitle("6. Creating SwiftUI widgets")
                     }
                 })
-                Section(header: Text("Chapter 4"), content: {
+                DisclosureGroup("Chapter 4", content: {
                     NavigationLink("1-1. Using the live preview canvas in Xcode15 - colorscheme") {
                         CanvasPreview()
                             .navigationTitle("1-1. Using the live preview canvas in Xcode15 - colorscheme")
@@ -156,6 +156,28 @@ struct ContentView: View {
                         }()
                         return UsingMockDataForPreviews(insects: testInsects)
                         .navigationTitle("5. Using mock data for previews")
+                    }
+                })
+                DisclosureGroup("Chapter 5", content: {
+                    NavigationLink("1. Showing and hiding sections in forms") {
+                        SignUp()
+                        .navigationTitle("1. Showing and hiding sections in forms")
+                    }
+                    NavigationLink("2. Disabling and enabling items in forms") {
+                        FormFieldDisable()
+                        .navigationTitle("2. Disabling and enabling items in forms")
+                    }
+                    NavigationLink("3. Filling out forms easily using Focus and Submit") {
+                        FocusAndSubmit()
+                        .navigationTitle("3. Filling out forms easily using Focus and Submit")
+                    }
+                    NavigationLink("4. Creating multi-column lists with Table") {
+                        MultiColumnTable()
+                        .navigationTitle("4. Creating multi-column lists with Table")
+                    }
+                    NavigationLink("5. Using Grid, a powerful two-dimensional layout") {
+                        TwoDimensionalLayout()
+                            .navigationTitle("5. Using Grid, a powerful two-dimensional layout")
                     }
                 })
             }
