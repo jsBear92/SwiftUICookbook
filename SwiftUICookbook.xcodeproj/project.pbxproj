@@ -17,6 +17,7 @@
 		088306BC2C195DC10086BE4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088306BB2C195DC10086BE4A /* ContentView.swift */; };
 		088306BE2C195DC20086BE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088306BD2C195DC20086BE4A /* Assets.xcassets */; };
 		088306C12C195DC20086BE4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088306C02C195DC20086BE4A /* Preview Assets.xcassets */; };
+		08887B552C1C24D00021118F /* insectData.json in Resources */ = {isa = PBXBuildFile; fileRef = 08887B542C1C24D00021118F /* insectData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		088306BB2C195DC10086BE4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		088306BD2C195DC20086BE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		088306C02C195DC20086BE4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08887B542C1C24D00021118F /* insectData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = insectData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -106,6 +108,14 @@
 				Chapter3/TodoList/TaskListView.swift,
 				Chapter3/TodoList/TaskView.swift,
 				Chapter3/TodoList/TodoView.swift,
+				Chapter4/CanvasPreview.swift,
+				Chapter4/Insect.swift,
+				Chapter4/PostView.swift,
+				Chapter4/PreviewingInNavigationStack.swift,
+				Chapter4/PreviewingWithTraits.swift,
+				Chapter4/PreviewOnDifferentDevices.swift,
+				Chapter4/SecondView.swift,
+				Chapter4/UsingMockDataForPreviews.swift,
 			);
 			target = 088306B52C195DC10086BE4A /* SwiftUICookbook */;
 		};
@@ -189,6 +199,7 @@
 		088306BF2C195DC20086BE4A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				08887B542C1C24D00021118F /* insectData.json */,
 				088306C02C195DC20086BE4A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -285,6 +296,7 @@
 			files = (
 				088306C12C195DC20086BE4A /* Preview Assets.xcassets in Resources */,
 				088306BE2C195DC20086BE4A /* Assets.xcassets in Resources */,
+				08887B552C1C24D00021118F /* insectData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

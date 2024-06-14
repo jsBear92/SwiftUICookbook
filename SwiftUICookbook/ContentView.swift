@@ -121,6 +121,43 @@ struct ContentView: View {
                         .navigationTitle("6. Creating SwiftUI widgets")
                     }
                 })
+                Section(header: Text("Chapter 4"), content: {
+                    NavigationLink("1-1. Using the live preview canvas in Xcode15 - colorscheme") {
+                        CanvasPreview()
+                            .navigationTitle("1-1. Using the live preview canvas in Xcode15 - colorscheme")
+                    }
+                    NavigationLink("1-2. Using the live preview canvas in Xcode15 - landscape") {
+                        PostView(title: "Test Title", text: "test test test", imageName: "sun.horizon.fill")
+                            .navigationTitle("1-2. Using the live preview canvas in Xcode15 - landscape")
+                    }
+                    NavigationLink("2. Previewing a view in a NaviagationStack") {
+                        PreviewingInNavigationStack()
+                            .navigationTitle("2. Previewing a view in a NaviagationStack")
+                    }
+                    NavigationLink("3. Preview a view with different traits") {
+                        PreviewingWithTraits()
+                        .navigationTitle("3. Preview a view with different traits")
+                    }
+                    NavigationLink("4. Previewing a view on different devices") {
+                        PreviewOnDifferentDevices()
+                        .navigationTitle("4. Previewing a view on different devices")
+                    }
+                    NavigationLink("5. Using mock data for previews") {
+                        let testInsect = Insect(id: 1, imageName: "grasshopper", name: "grass", habitat: "rocks", description: "none")
+                        let testInsects: [Insect] = {
+                            guard let url = Bundle.main.url(forResource: "insectData", withExtension: "json"),
+                                  let data = try? Data(contentsOf: url)
+                            else {
+                                return []
+                            }
+                            let decoder = JSONDecoder()
+                            let array = try?decoder.decode([Insect].self, from: data)
+                            return array ?? [testInsect]
+                        }()
+                        return UsingMockDataForPreviews(insects: testInsects)
+                        .navigationTitle("5. Using mock data for previews")
+                    }
+                })
             }
         }
         .navigationTitle("SwiftUI Cookbook")
