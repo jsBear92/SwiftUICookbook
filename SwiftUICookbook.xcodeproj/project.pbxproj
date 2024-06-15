@@ -124,6 +124,14 @@
 				Chapter5/MultiColumnTable.swift,
 				Chapter5/SignUp.swift,
 				Chapter5/TwoDimensionalLayout.swift,
+				Chapter6/AlertsWithActions.swift,
+				Chapter6/DisplayingContextMenus.swift,
+				Chapter6/DisplayingPopovers.swift,
+				Chapter6/PresentingAlerts.swift,
+				Chapter6/PresentingConfirmationDialogs.swift,
+				Chapter6/PresentingSheets.swift,
+				Chapter6/SheetView.swift,
+				Chapter6/SheetWithNavBar.swift,
 			);
 			target = 088306B52C195DC10086BE4A /* SwiftUICookbook */;
 		};

@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                DisclosureGroup("Chapter 1", content: {
+                DisclosureGroup("Chapter 1 - Basic SwiftUI", content: {
                     NavigationLink("1. Dealing with Text") {
                         FormattedText()
                             .navigationTitle("1. Dealing with Text")
@@ -49,7 +49,7 @@ struct ContentView: View {
                             .navigationTitle("9. Exploring more views and controls")
                     }
                 })
-                DisclosureGroup("Chapter 2", content: {
+                DisclosureGroup("Chapter 2 - Scrollable Contents", content: {
                     NavigationLink("1. Using scroll views") {
                         WeScroll()
                             .navigationTitle("1. Using scroll views")
@@ -95,7 +95,7 @@ struct ContentView: View {
                             .navigationTitle("11. Using searchable lists with scopes")
                     }
                 })
-                DisclosureGroup("Chapter 3", content: {
+                DisclosureGroup("Chapter 3 - Advanced Components", content: {
                     NavigationLink("1. Using LazyHStack and LazyVStack") {
                         LazyStacks()
                             .navigationTitle("1. Using LazyHStack and LazyVStack")
@@ -121,7 +121,7 @@ struct ContentView: View {
                         .navigationTitle("6. Creating SwiftUI widgets")
                     }
                 })
-                DisclosureGroup("Chapter 4", content: {
+                DisclosureGroup("Chapter 4 - SwiftUI Preview", content: {
                     NavigationLink("1-1. Using the live preview canvas in Xcode15 - colorscheme") {
                         CanvasPreview()
                             .navigationTitle("1-1. Using the live preview canvas in Xcode15 - colorscheme")
@@ -158,7 +158,7 @@ struct ContentView: View {
                         .navigationTitle("5. Using mock data for previews")
                     }
                 })
-                DisclosureGroup("Chapter 5", content: {
+                DisclosureGroup("Chapter 5 - Grouping Views", content: {
                     NavigationLink("1. Showing and hiding sections in forms") {
                         SignUp()
                         .navigationTitle("1. Showing and hiding sections in forms")
@@ -180,6 +180,32 @@ struct ContentView: View {
                             .navigationTitle("5. Using Grid, a powerful two-dimensional layout")
                     }
                 })
+                DisclosureGroup("Chapter 6 - Presenting Views Modally") {
+                    NavigationLink("1. Presenting alerts") {
+                        PresentingAlerts()
+                            .navigationTitle("1. Presenting alerts")
+                    }
+                    NavigationLink("2. Adding actions to alert buttons") {
+                        AlertsWithActions()
+                        .navigationTitle("2. Adding actions to alert buttons")
+                    }
+                    NavigationLink("3. Presenting confirmation dialogs") {
+                        PresentingConfirmationDialogs()
+                        .navigationTitle("3. Presenting confirmation dialogs")
+                    }
+                    NavigationLink("4. Presenting new views using sheets and full-screen covers") {
+                        PresentingSheets()
+                        .navigationTitle("4. Presenting new views using sheets and full-screen covers")
+                    }
+                    NavigationLink("5. Displaying popovers") {
+                        DisplayingPopovers()
+                        .navigationTitle("5. Displaying popovers")
+                    }
+                    NavigationLink("6. Creating context menus") {
+                        DisplayingContextMenus()
+                        .navigationTitle("6. Creating context menus")
+                    }
+                }
             }
         }
         .navigationTitle("SwiftUI Cookbook")
