@@ -206,6 +206,28 @@ struct ContentView: View {
                         .navigationTitle("6. Creating context menus")
                     }
                 }
+                DisclosureGroup("Chapter 7 - Navigation Containers") {
+                    NavigationLink("1. Simple navigation with NavigationStack") {
+                        SimpleNavigation()
+                            .navigationTitle("1. Simple navigation with NavigationStack")
+                    }
+                    NavigationLink("2. Typed data-driven navigation with NavigationStack") {
+                        ModernNavigation()
+                            .navigationTitle("2. Typed data-driven navigation with NavigationStack")
+                    }
+                    NavigationLink("3. Untyped data-driven navigation with NavigationStack") {
+                        UntypedModernNavigation()
+                        .navigationTitle("3. Untyped data-driven navigation with NavigationStack")
+                    }
+                    NavigationLink("4. Navigating between multiple views with TabView") {
+                        UsingTabView()
+                        .navigationTitle("4. Navigating between multiple views with TabView")
+                    }
+                    NavigationLink("5. Programmatically switching tabs on a TabView") {
+                        TabViewWithGestures()
+                        .navigationTitle("5. Programmatically switching tabs on a TabView")
+                    }
+                }
             }
         }
         .navigationTitle("SwiftUI Cookbook")
