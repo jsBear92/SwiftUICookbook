@@ -158,6 +158,14 @@
 				Chapter7/UsingTabViews/HomeView.swift,
 				Chapter7/UsingTabViews/TabViewWithGestures.swift,
 				Chapter7/UsingTabViews/UsingTabView.swift,
+				Chapter8/BuiltInShapes.swift,
+				Chapter8/Drawing.swift,
+				Chapter8/GradientViews.swift,
+				Chapter8/HeartView.swift,
+				Chapter8/ProgressRing.swift,
+				Chapter8/ProgressRingView.swift,
+				Chapter8/RhombusApp.swift,
+				Chapter8/TicTacToe.swift,
 			);
 			target = 088306B52C195DC10086BE4A /* SwiftUICookbook */;
 		};

@@ -228,6 +228,36 @@ struct ContentView: View {
                         .navigationTitle("5. Programmatically switching tabs on a TabView")
                     }
                 }
+                DisclosureGroup("Chapter 8 - Drawing with SwiftUI") {
+                    NavigationLink("1. Using SwiftUI's built-in shapes") {
+                        BuiltInShapes()
+                        .navigationTitle("1. Using SwiftUI's built-in shapes")
+                    }
+                    NavigationLink("2. Drawing a custom shape") {
+                        RhombusApp()
+                        .navigationTitle("2. Drawing a custom shape")
+                    }
+                    NavigationLink("3. Drawing a curved custom shape") {
+                        HeartView()
+                            .navigationTitle("3. Drawing a curved custom shape")
+                    }
+                    NavigationLink("4. Drawing using the Canvas API") {
+                        Drawing()
+                        .navigationTitle("4. Drawing using the Canvas API")
+                    }
+                    NavigationLink("5. Implementing a progress ring") {
+                        ProgressRing()
+                        .navigationTitle("5. Implementing a progress ring")
+                    }
+                    NavigationLink("6. Implementing a Tic-Tac-Toe game in SwiftUI") {
+                        TicTacToe()
+                        .navigationTitle("6. Implementing a Tic-Tac-Toe game in SwiftUI")
+                    }
+                    NavigationLink("7. Rendering a gradient view in SwiftUI") {
+                        GradientViews()
+                            .navigationTitle("7. Rendering a gradient view in SwiftUI")
+                    }
+                }
             }
         }
         .navigationTitle("SwiftUI Cookbook")
