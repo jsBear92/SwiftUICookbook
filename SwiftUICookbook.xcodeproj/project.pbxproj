@@ -166,6 +166,15 @@
 				Chapter8/ProgressRingView.swift,
 				Chapter8/RhombusApp.swift,
 				Chapter8/TicTacToe.swift,
+				Chapter9/AnimateTriangleShape.swift,
+				Chapter9/BannerWithASpringAnimation.swift,
+				Chapter9/BasicAnimations.swift,
+				Chapter9/ChainedAnimations.swift,
+				Chapter9/CustomAnimations.swift,
+				Chapter9/DelayedAnimations.swift,
+				Chapter9/MultipleAnimations.swift,
+				Chapter9/StretchableHeader.swift,
+				Chapter9/SwipeableCards.swift,
 			);
 			target = 088306B52C195DC10086BE4A /* SwiftUICookbook */;
 		};

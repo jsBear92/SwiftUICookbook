@@ -258,6 +258,44 @@ struct ContentView: View {
                             .navigationTitle("7. Rendering a gradient view in SwiftUI")
                     }
                 }
+                DisclosureGroup("Chapter 9 - Animating with SwiftUI") {
+                    NavigationLink("1. Creating basic animations") {
+                        BasicAnimations()
+                        .navigationTitle("1. Creating basic animations")
+                    }
+                    NavigationLink("2. Transforming shapes") {
+                        AnimateTriangleShape()
+                        .navigationTitle("2. Transforming shapes")
+                    }
+                    NavigationLink("3. Creating a banner with a spring animation") {
+                        BannerWithASpringAnimation()
+                        .navigationTitle("3. Creating a banner with a spring animation")
+                    }
+                    NavigationLink("4. Applying a delay to an animation view modifier to create a sequence of animations") {
+                        DelayedAnimations()
+                            .navigationTitle("4. Applying a delay to an animation view modifier to create a sequence of animations")
+                    }
+                    NavigationLink("5. Applying multiple animations to a view") {
+                        MultipleAnimations()
+                        .navigationTitle("5. Applying multiple animations to a view")
+                    }
+                    NavigationLink("6. Chained animations with PhaseAnimator") {
+                        ChainedAnimations()
+                        .navigationTitle("6. Chained animations with PhaseAnimator")
+                    }
+                    NavigationLink("7. Custom animations with KeyframeAnimator") {
+                        CustomAnimations()
+                        .navigationTitle("7. Custom animations with KeyframeAnimator")
+                    }
+                    NavigationLink("8. ImplementingA stretchable header in SwiftUI") {
+                        StretchableHeader()
+                        .navigationTitle("8. ImplementingA stretchable header in SwiftUI")
+                    }
+                    NavigationLink("9. Implementing a swipeable stack of cards in SwiftUI") {
+                        SwipeableCards()
+                        .navigationTitle("9. Implementing a swipeable stack of cards in SwiftUI")
+                    }
+                }
             }
         }
         .navigationTitle("SwiftUI Cookbook")
