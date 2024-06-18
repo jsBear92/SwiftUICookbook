@@ -175,6 +175,13 @@
 				Chapter9/MultipleAnimations.swift,
 				Chapter9/StretchableHeader.swift,
 				Chapter9/SwipeableCards.swift,
+				Chapter10/CounterView.swift,
+				Chapter10/DynamicTodoList.swift,
+				Chapter10/InputTodoView.swift,
+				Chapter10/ReminderApp.swift,
+				Chapter10/SongPlayer.swift,
+				Chapter10/StaticTodoList.swift,
+				Chapter10/UsingStateObject.swift,
 			);
 			target = 088306B52C195DC10086BE4A /* SwiftUICookbook */;
 		};

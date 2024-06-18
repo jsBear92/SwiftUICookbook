@@ -296,6 +296,29 @@ struct ContentView: View {
                         .navigationTitle("9. Implementing a swipeable stack of cards in SwiftUI")
                     }
                 }
+                DisclosureGroup("Chapter 10 - Driving SwiftUI with Data") {
+                    NavigationLink("1. Using @State to drive a view's behavior") {
+                        StaticTodoList()
+                            .navigationTitle("1. Using @State to drive a view's behavior")
+                    }
+                    NavigationLink("2. Using @Binding to pass a state variable to child views") {
+                        DynamicTodoList()
+                            .navigationTitle("2. Using @Binding to pass a state variable to child views")
+                    }
+                    NavigationLink("3. Using @StateObject to preserve the model's life cycle") {
+                        UsingStateObject()
+                        .navigationTitle("3. Using @StateObject to preserve the model's life cycle")
+                    }
+                    NavigationLink("4. Sharing state objects with multiple Views using @EnvironmentObject") {
+                        SongPlayer()
+                            .environmentObject(MusicPlayer())
+                            .navigationTitle("4. Sharing state objects with multiple Views using @EnvironmentObject")
+                    }
+                    NavigationLink("5. Using Observation to manage model data") {
+                        ReminderApp()
+                        .navigationTitle("5. Using Observation to manage model data")
+                    }
+                }
             }
         }
         .navigationTitle("SwiftUI Cookbook")
